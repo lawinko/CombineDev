@@ -48,6 +48,18 @@ Ensure you have the following installed on your machine:
     - Set the development values in `.env.dev`.
     - Set the production values in `.env.prod`.
 
+4. **Prebuild ios and android folders:**
+Since Expo Go doesn't support `react-native-mmkv`, you will need to build the iOS and Android folders using `expo-dev-client`.
+
+To prebuild the folders, run:
+    ```sh
+    npm run prebuild:clean
+    ```
+    or if you prefer Yarn:
+    ```sh
+    yarn prebuild:clean
+    ```
+
 ### Running for Development and Production
 
 1. **Run on Android (Development):**
