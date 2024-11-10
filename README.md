@@ -31,7 +31,7 @@ Ensure you have the following installed on your machine:
 
 1. **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/combine-dev.git
+    git clone https://github.com/lawinko/CombineDev.git
     cd combine-dev
     ```
 
