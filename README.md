@@ -44,7 +44,7 @@ Ensure you have the following installed on your machine:
     yarn install
     ```
 
-3. **Set up environment variables:**
+3. **Set up environment variables such as GOOGLE_MAP_API_KEY:**
     - Set the development values in `.env.dev`.
     - Set the production values in `.env.prod`.
 
@@ -123,6 +123,8 @@ Ensure you have the following installed on your machine:
     ```
 
 ### Testing
+
+## Added all the built-in components from Ignite to ignore in jest.config.js
 
 1. **Run tests:**
     ```sh
